@@ -64,7 +64,7 @@ const PaymentManagement = () => {
                                 <table className={"paymentManagement-bordered2"}>
                                     <thead>
                                     <tr>
-                                        <th className={"id-box2"}>ID</th>
+                                        <th className={"id-box2"}>id</th>
                                         <th className={"paymentDate-box2"}>Payment Date</th>
                                         <th className={"userId-box2"}>UID</th>
                                         <th className={"orderItems-box2"}>OrderItems</th>
