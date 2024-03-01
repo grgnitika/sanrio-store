@@ -1,0 +1,155 @@
+
+.payment-container {
+    background: #faf7f2;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    /*font-family: Gilroy;*/
+    /*overflow-x: hidden;*/
+}
+
+.payment-text-div {
+    display: block;
+    color: black;
+    font-family: "Gilroy Bold";
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto; /* Center the half line */
+}
+
+.payment-text-div b {
+    color: #f3ad16;
+}
+
+.delivery-mode-container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    /*margin: 40px;*/
+    margin-inline: auto;
+    width: 70vw;
+    height: 100vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+}
+
+.delivery-method {
+    background: white;
+    display: flex;
+    padding: 10px 20px;
+    /*margin: 1px;*/
+    margin-inline: auto;
+    width: 60vw;
+    height: 30vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+}
+
+.receipt-container {
+    background: white;
+    display: flex;
+    padding: 10px 20px;
+    margin: 20px;
+    margin-inline: auto;
+    width: 60vw;
+    height: 50vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+}
+.receipt-container-text{
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+.receipt-tex{
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.payment-mode-container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 5px;
+    margin: 10px;
+    margin-inline: auto;
+    width: 60vw;
+    height: 30vh;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16);
+}
+
+.dropdown-delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-delivery-option{
+    /*font-family: "Bebas Neue";*/
+    font-size: 17px;
+    position: relative;
+    text-align: center;
+    width:32vw;
+    height: 4vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #162938;
+    margin:  26px 0;
+    padding-left: 6px;
+    background: transparent;
+    color:  rgb(133, 133, 133)
+
+}
+
+.dropdown-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-payment-option{
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    width:32vw;
+    height: 4vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #162938;
+    margin:  26px 0;
+    padding-left: 6px;
+    background: transparent;
+    color:  rgb(133, 133, 133)
+
+}
+
+.confirm-order{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    /*margin: 40px;*/
+    margin-inline: auto;
+    width: 30vw;
+    height: 30vh;
+    align-items: center;
+}
+.address_input, .phone_input{
+    width: 25vw;
+    margin-bottom: 4px;
+    height: 5vh;
+    font-family: "Gilroy Medium";
+    background-color: white;
+    border-radius: 0px;
+    padding-left: 5px;
+}

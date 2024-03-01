@@ -1,0 +1,46 @@
+
+.customer-page{
+    background: lightblue;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.customer-page-header{
+    display: flex;
+    height: 12vh;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 10px 10px 10px -1px rgba(119, 111, 93, 0.52);
+}
+.customer-page-header h1{
+    font-size: 1.8rem;
+}
+.customer-page-right{
+    /*width: 79vw;*/
+    position: relative;
+    margin-left: 19.7vw;
+}
+
+.id-box3{
+    min-width: 6rem;
+}
+.name-box3{
+    min-width: 18rem;
+}
+
+.no-of-customer{
+    margin-top: 1rem;
+    padding: 2vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #312e2e;*/
+}
+.no-of-customer h2{
+
+}

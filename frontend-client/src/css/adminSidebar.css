@@ -1,0 +1,108 @@
+.admin-sidebar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 19vw;
+    height: 98.8vh;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 10px -1px rgba(119, 111, 93, 0.52);
+    align-items: center;
+    border-radius: 10px;
+    margin: 4px;
+    background-color: lightgoldenrodyellow;
+    z-index: 102;
+}
+
+.sidebar-list-item.active{
+    background-color: lightblue;
+    margin-left: -2px;
+    margin-bottom: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;*/
+}
+.sidebar-list-item.active span,.sidebar-list-item.active a{
+    color: #232020;
+}
+
+.sidebar-brand{
+    letter-spacing: 0px;
+    /*background-color: black;*/
+    display: flex;
+    margin-left: -1rem;
+    margin-top: 0.3rem;
+}
+
+.sidebar-brand span{
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+.sidebar-options{
+    /*background-color: #888888;*/
+    margin-top: 5vh;
+    width: 100%;
+}
+.sidebar-options ul{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar-list-item:active{
+    background-color: #312e2e;
+}
+
+.sidebar-list-item {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    margin-left: -15px;
+    padding: 18px 20px 12px 20px;
+    font-size: 18px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 9px;
+    transition: all ease 0.2s;
+}
+.sidebar-list-item span{
+    margin-right: 5px;
+}
+.sidebar-list-item a,span{
+    font-family: "Gilroy Medium";
+    font-size: 15px;
+    color: #444444;
+}
+
+.sidebar-list-item:hover {
+    background-color: lightpink;
+    color: var(--clr-light);
+    margin-left: -2px;
+    margin-bottom: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.sidebar-list-item:hover a,.sidebar-list-item:hover span  {
+    color: #ffffff;
+}
+
+.sidebar-btn{
+    position: absolute;
+    bottom: 4%;
+}
+.sidebar-btn span{
+    color: white;
+    transition: 0.3s all ease;
+}
+.sidebar-btn button{
+    font-size: 1.3rem;
+    width: 15.5vw;
+    height: 7.2vh;
+    border-radius: 0px;
+    border-color: transparent;
+    background-color: lightpink;
+    cursor: pointer;
+}

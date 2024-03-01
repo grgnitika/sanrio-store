@@ -1,0 +1,90 @@
+:root {
+    font-family: Gilroy Regular, 'Bebas Neue', 'Alex Brush',Afacad, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+
+    --clr-light: #0e0a0a; /* Define a CSS variable */
+    --clr-primary: #f3ad16; /* Define another CSS variable */
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+    /*-webkit-box-shadow: 0 0 0 30px #e0e0e0 inset;*/
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("../public/Fonts/BebasNeue-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: Alex Brush;
+    src: url("../public/Fonts/AlexBrush-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: Afacad;
+    src: url("../public/Fonts/Afacad-VariableFont_wght.ttf") format('truetype');
+}
+@font-face {
+    font-family: Gilroy Light;
+    src: url("../public/Fonts/Gilroy-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: Gilroy Regular;
+    src: url("../public/Fonts/Gilroy-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: Gilroy Medium;
+    src: url("../public/Fonts/Gilroy-Medium.ttf") format('truetype');
+}
+@font-face {
+    font-family: Gilroy Bold;
+    src: url("../public/Fonts/Gilroy-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: Gilroy SemiBold;
+    src: url("../public/Fonts/Gilroy-SemiBold.ttf") format('truetype');
+}
+
+table {
+    margin: 1rem auto;
+    border-radius: 7px;
+    border: 3rem hidden #be9a7c;
+/*box-shadow: 0 0 0 1px black;*/
+overflow: hidden;
+    max-width: 80rem;
+    background-color: rgb(227, 219, 206);
+}
+
+thead {
+    font-size: 1.2rem;
+    background-color: #e7dfd8;
+    color: #2c2100;
+}
+
+th,td {
+/*border: 1px solid #000000B7;*/
+/*    min-width: 5rem;*/
+    padding: 1.5rem;
+    line-height: 0.2;
+    border-radius: 2px;
+}
+th{
+    font-family: "Gilroy SemiBold";
+}
+td {
+    font-size: 1rem;
+    background-color: white;
+}
+
+h6{
+    font-size: 1rem;
+    font-family: Afacad;
+    font-weight: 200;
+    letter-spacing: -0.7px;
+    color: rgba(70, 1, 1, 0.63);
+}

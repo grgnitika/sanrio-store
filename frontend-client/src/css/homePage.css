@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background: rgba(0, 0, 0, 0.72);
+    color: white;
+}
+body, html {
+    overflow-x: hidden;
+}
+
+.home-page{
+    background-color: powderblue;
+    width: 100vw;
+    /*height: 100%;*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.hp-first-div{
+    width: 100vw;
+    /*background-color: rgba(0,0,0, 0.52);*/
+    overflow-x: hidden;
+}
+.hp-second-div{
+    width: 100vw;
+    /*background: #faf7f2;*/
+    padding-bottom: 5vh;
+}
+
+.hp-main-container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    height:40vh;
+    z-index: 99;
+}
+
+.sanrio-slogan{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-bottom: -0.9rem;
+}
+.sanrio-slogan-slogan h1{
+    font-weight: 200;
+    color: black;
+}
+.hp-search-wrapper{
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: white;
+    height: 7vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+.hp-search-wrapper span{
+    display: inline-block;
+    padding: 0.2rem 15px 0 0.3rem;
+    font-size: 2vw;
+    background-color: #ffffff;
+    margin-left: -1.72rem;
+}  .hp-search-wrapper span:hover{
+       cursor: pointer;
+   }
+.hp-search-wrapper input{
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: "Gilroy Regular";
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.home-search-div{
+    padding-left: 6vw;
+    display: flex;
+    justify-content: center;
+    background-color: #faf7f2;
+}
+.recommended-text{
+    display: flex;
+    padding-left: 2vw;
+    align-items: center;
+    color: black;
+    /*background-color: #f3ad16;*/
+}
+.recommendation-div h2{
+    /*background-color: #f3ad16;*/
+    font-size: 2rem;
+}
+.view-more-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 14vh;
+}
+
+.copyright-text{
+    text-align: center;
+}
+

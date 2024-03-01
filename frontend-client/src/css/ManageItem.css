@@ -1,0 +1,204 @@
+
+.itempage-header{
+    display: flex;
+    position: fixed;
+    height: 12vh;
+    width: 79vw;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 10px 10px 10px -1px rgba(119, 111, 93, 0.52);
+}
+
+.itempage-right{
+    width: 79vw;
+    position: relative;
+    margin-left: 19.7vw;
+    background-color: lightblue;
+    min-height: 100vh;
+}
+
+.item-main-content{
+    width: 77vw;
+    padding-top: 15vh;
+}
+
+.search-wrapper3{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 50px;
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.search-wrapper3 span{
+    display: inline-block;
+    padding: 0.7rem 0 0 1rem;
+    font-size: 1.5rem;
+}
+
+.search-wrapper3 input{
+    height: 100%;
+    padding: 0 2.5rem;
+    border: none;
+    outline: none;
+}
+
+.user-wrapper3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-wrapper3 img{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.user-wrapper3 small{
+    display: inline-block;
+    color: grey;
+}
+
+.btn3{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 1.5rem;
+    border-radius: 11px;
+}
+
+.btn3 button{
+    width: 4.5vw;
+    height: 4.3vw;
+    box-shadow: 5px 5px 10px -1px rgb(157, 137, 118);
+    border-radius: 50%;
+}
+
+.card-header3 h2{
+    margin: -2rem 0 -.5rem 2.3rem;
+    text-decoration: underline;
+}
+
+.table-bordered3 th{
+    font-size: 1rem;
+    padding: 1.2rem 0;
+}
+
+.table-bordered3 td{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.id-box3{
+    width: 1rem;
+    border: 1rem #000000;
+    padding: 1.2rem 0.1rem;
+    margin: 0;
+}
+.name-box3{
+    min-width: 8rem;
+}
+.category-box3{
+    min-width: 8rem;
+}
+.image-box3{
+    min-width: 8rem;
+}
+.price-box3{
+    min-width: 7rem;
+}
+.action-box3{
+    min-width: 9rem;
+}
+.status-box3{
+    min-width: 6rem;
+}
+
+.edit-btn3, .delete-btn3{
+    padding: 2px 0 0 0 ;
+    width: 3vw;
+    height: 2.5vw;
+    border-radius: 10px;
+    margin: -0.3rem 0.2rem -0.3rem 0.2rem;
+}
+
+.delete-btn3:hover{
+    background: #443f39;
+    color: #b64646;
+    box-shadow: 10px 10px 10px -1px rgb(211, 164, 164);
+}
+
+/*css for add item modal*/
+.add-item-modal, .add-item-overlay {
+    width: 100vw; height: 100vh; top: 0; left: 0; right: 0; bottom: 0; position: fixed; z-index: 101;
+}
+.add-item-overlay {
+    /*background: rgba(112, 112, 112, 0.8);*/
+    backdrop-filter: blur(5px);
+}
+.add-item-modal-content {
+    position: absolute; top: 45%; left: 55%; transform: translate(-50%, -50%); line-height: 1.4;
+    background: #dcdbdb; padding: 14px 28px; border-radius: 10px;       font-size: 1.1rem;
+    width: 40vw;   height: 72vh;   z-index: 102;  text-decoration: underline;
+}
+.close-add-item-btn {
+    width: 3vw;  height: 3vw; background: none; box-shadow: none; color: #222222;  border-radius: 9px;
+    position: absolute; top: 0.4rem; right: 0.4rem; padding: 7px 3px 0 3px;  margin-bottom: -20px;
+}  .close-add-item-btn:hover{ box-shadow: none; color: #831515 }
+
+.select-category{
+    position: absolute;   top: 5.6rem;  font-size: 1.7rem;
+}
+.select-category select{
+    width: 35vw;   height: 5.7vh; padding-left: 0.8rem; border-color: #281e07; border-radius: 7px;
+}
+.select-category label,.select-category select{
+    display: block;
+}
+.item-name{
+    position: absolute;  top: 12rem;   font-size: 1.7rem;
+}
+.item-name input{
+    width: 20vw;   height: 5.7vh;  padding-left: 0.8rem;  border-color: #281e07; border-radius: 7px;
+}
+.item-name label,.item-name input{
+    display: block;
+}
+.item-price1{
+    position: absolute;  top: 12rem;  right: 2rem; font-size: 1.7rem;
+}
+.item-price1 input{
+    width: 13vw;   height: 5.7vh;  padding-left: 0.8rem;  border-color: #281e07; border-radius: 7px;
+}
+.item-price1 label,.item-price1 input{
+    display: block;
+}
+.item-image{
+    position: absolute; top:18.4rem;  font-size: 1.7rem;
+}
+.item-image span{
+    width: 35vw;   height: 6vh;  padding-left: 0.8rem;  border: 2px solid; border-color: #5b4511; border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-image input{
+    font-size: 1.3vw;
+    font-family: "Gilroy Regular";
+}
+.item-image label,.item-image span{
+    display: block;
+}
+
+
+.item-name-add-btn{
+    position: absolute; right: 2rem;  bottom: 1.5rem;
+}
+.item-name-add-btn button{
+    width: 10.3rem;  height: 3rem;
+}

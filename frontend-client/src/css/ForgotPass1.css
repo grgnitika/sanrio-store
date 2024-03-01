@@ -1,0 +1,121 @@
+
+
+body.active-forget-modal {
+    overflow-y: hidden;
+}
+.forget-modal, .forget-overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 101;
+    backdrop-filter: blur(3px);
+
+}
+
+
+.forget-modal-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: lightgoldenrodyellow;
+    padding: 14px 28px;
+    border-radius: 0px;
+    font-size: 1rem;
+    width: 30vw;
+    height: 82vh;
+    z-index: 102;
+}
+.forget-modal-content h2{
+    font-size: 1.5rem;
+    color: #162938;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.forget-modal-content h3{
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #162938;
+    text-align: center;
+    /*text-decoration: underline;*/
+}
+
+.close-btn {
+    width: 3vw;
+    height: 3vw;
+    background: none;
+    box-shadow: none;
+    color: #222222;
+    border-radius: 9px;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    padding: 7px 3px 0 3px;
+    margin-bottom: -20px;
+}
+.close-btn:hover{
+    color: #f3ad16
+}
+
+.input-section .username_input, .question_input, .password_input, .confirm_input {
+    margin-top: 60px;
+    width: 98%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+    font-size: 14px;
+    cursor: text;
+    padding-left: 5px;
+}
+/*.input-section input::placeholder{*/
+/*    font-family: "Gilroy Regular";*/
+/*}*/
+
+.input-section .mail-icon{
+    position: absolute;
+    margin: 45px -1px;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 57px;
+}
+
+.input-section .security-question-icon{
+    position: absolute;
+    margin: 41px -1px;
+    font-size: 1rem;
+    color: #162938;
+    line-height: 57px;
+}
+
+.input-section .iconpassword{
+    position: absolute;
+    margin: 40px -9px;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 57px;
+}
+
+.sendbtn {
+    width: 10vw;
+    height: 7vh;
+    background: lightpink;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 19px 100px;
+}
+
+.error-message{
+    color: red;
+}
