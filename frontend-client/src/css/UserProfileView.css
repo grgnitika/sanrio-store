@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .user_profile_main{
     margin-top: 4em;
     width: 20%;
@@ -17,30 +18,30 @@
     top: 2.4%;
     background-color: rgba(253, 244, 222, 0.81);
 }
+
 .my_profile{
     font-family: "Gilroy Medium";
     font-weight: bold;
     font-size: 1em;
-
 }
+
 .my_profile h1{
     display: flex;
     justify-content: center;
 }
+
 .cross-icon button{
     width: 3vw;
     height: 3vw;
     background: none;
     box-shadow: none;
-    /*color: #222222;*/
-    /*border-radius: 9px;*/
     position: absolute;
     top: 0.4rem;
     right: 0.4rem;
     padding: 7px 3px 0 3px;
     margin-bottom: -20px;
-
 }
+
 .cross-icon button:hover{
     box-shadow: none;
     color: white;
@@ -77,14 +78,16 @@
 .name{
     margin-left:0 ;
 }
-.name .name-box{
 
+.name .name-box{
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 .name .email-box{
     margin-bottom: 1em;
 }
+
 my_profile h1{
     align-content: center;
 }

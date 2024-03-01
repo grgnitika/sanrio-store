@@ -2,6 +2,7 @@
 body.active-register-modal {
     overflow-y: hidden;
 }
+
 .register-modal, .register-overlay {
     width: 100vw;
     height: 100vh;
@@ -13,6 +14,7 @@ body.active-register-modal {
     z-index: 101;
     backdrop-filter: blur(3px);
 }
+
 .register-modal-content {
     position: absolute;
     top: 45%;
@@ -27,6 +29,7 @@ body.active-register-modal {
     height: 87vh;
     z-index: 102;
 }
+
 .register-modal-content h2{
     font-size: 2rem;
     color: #162938;
@@ -47,10 +50,12 @@ body.active-register-modal {
     padding: 7px 3px 0 3px;
     margin-bottom: -20px;
 }
+
 .close-register-btn:hover{
     box-shadow: none;
     color:  #f3ad16
 }
+
 .reg-input-box  .useremail, .useremail, .password {
     position: relative;
     width: 100%;
@@ -58,6 +63,7 @@ body.active-register-modal {
     border-bottom: 2px solid#162938;
     margin: 45px 0;
 }
+
 .reg-input-box .username{
     width: 100%;
     height: 25px;
@@ -66,16 +72,8 @@ body.active-register-modal {
     justify-content: space-between;
 }
 
-/*.reg-input-box {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-
-
-
 .reg-input-box .username input {
-    width: 183px; /* Adjust the width as needed */
+    width: 183px;
     height: 100%;
     background: transparent;
     border: none;
@@ -89,6 +87,7 @@ body.active-register-modal {
     border: none;
     outline: none;
 }
+
 .reg-input-box .iconname, .iconmail, .iconuser, .iconpassword{
     position: absolute;
     right: 30px;
@@ -96,22 +95,23 @@ body.active-register-modal {
     color: #162938;
     line-height: 1px;
 }
+
 .security-question .answer{
     position: relative;
     width: 100%;
     height: 22px;
     border-bottom: 2px solid#162938;
     margin: 15px 0
-
 }
+
 .security-question input{
     width: 20vw;
     height: 100%;
-    /*margin: -1px 0;*/
     background: transparent;
     border: none;
     outline: none;
 }
+
 .btn-signup10{
     width: 16vw;
     height: 7vh;
@@ -126,11 +126,3 @@ body.active-register-modal {
     display: block;
     margin: 0 auto;
 }
-/*.login-text{*/
-/*    position: absolute;*/
-/*    bottom: 2%;*/
-/*    right: 2%;*/
-/*}*/
-/*.login-text:hover{*/
-/*    cursor: pointer;*/
-/*}*/

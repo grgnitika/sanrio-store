@@ -74,6 +74,7 @@ button:hover{
     margin-right: 4px;
     color: white;
 }
+
 .btn1 button:hover span{
     color: #f3ad16;
 }
@@ -82,12 +83,6 @@ button:hover{
     width: 77vw;
     padding-top: 15vh;
 }
-
-
-/*.card-header2 h2{*/
-/*    margin: -2rem 0 -.5rem 2.2rem;*/
-/*    text-decoration: underline;*/
-/*}*/
 
 .id-box2{
     min-width: 8rem;
@@ -100,7 +95,9 @@ button:hover{
 
 .edit-box2{
     min-width: 12rem;
-}.delete-box2{
+}
+
+.delete-box2{
      min-width: 12rem;
  }
 
@@ -163,4 +160,3 @@ body.active-modal {
 .category-name-add-btn button{
     width: 7rem;  height: 3rem;
 }
-
